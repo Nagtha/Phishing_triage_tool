@@ -1,0 +1,10 @@
+{
+  "AlertTitle": "Phishing email reported by user",
+  "SenderIP": "185.220.101.12",
+  "Urls": [
+    "https://login-secure-microsoft.com",
+    "https://google.com" 
+  ],
+  "SenderDomain": "secure-login.biz",
+  "TimeGenerated": "2025-12-30T10:15:00Z"
+}

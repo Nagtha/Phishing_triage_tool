@@ -1,0 +1,20 @@
+{
+  "AlertTitle": "Phishing email reported by user - Suspicious login page",
+  "AlertSeverity": "High",
+  "ProviderName": "Microsoft Defender for Office 365",
+  "TimeGenerated": "2026-01-01T14:45:00Z",
+  "SenderIP": "104.21.45.123",
+  "SenderDomain": "micros0ft-login[.]verify-secure[.]top",
+  "SenderMailFromAddress": "noreply@micros0ft-login[.]verify-secure[.]top",
+  "RecipientEmailAddress": "user@yourcompany.com",
+  "Subject": "Urgent: Verify your Microsoft 365 account - Action required",
+  "Urls": [
+    "https://micros0ft-login.verify-secure.top/login?session=abc123",
+    "https://bit.ly/3zFakeMaliciousRedirect",
+    "https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=badapp"
+  ],
+  "AttachmentNames": [
+    "Invoice_2026_URGENT.pdf.exe"
+  ],
+  "Description": "User reported email as phishing. Contains suspicious URLs mimicking Microsoft login and shortened redirect link. High likelihood of credential theft attempt."
+}
